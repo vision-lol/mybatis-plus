@@ -62,4 +62,9 @@ public class UserMapperTest {
         List<User> userList = userMapper.selectBatchIds(Arrays.asList(1, 2));
         userList.forEach(System.out::println);
     }
+
+    @Test
+    public void selectTest(){
+
+    }
 }
